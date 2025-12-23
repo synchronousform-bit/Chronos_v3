@@ -6,14 +6,14 @@
 
 ![Build Status](https://img.shields.io/badge/SYSTEM-ONLINE-brightgreen) ![Security](https://img.shields.io/badge/SECURITY-BIOMETRIC-red) ![Platform](https://img.shields.io/badge/HARDWARE-ESP32-blue)
 
-<img width="1376" height="768" alt="cyberdeck_example" src="https://github.com/user-attachments/assets/4d762452-9ee2-4fac-8f6b-7a30ee567aea" />
-
 ## ⚠️ AVISO DE INTERCEPTAÇÃO
 
 Se você está lendo isso, você foi recrutado.
 
 Este repositório contém o **firmware base** para o dispositivo de intrusão física **CHRONOS_V3**. Sua missão é montar este hardware, configurar a conexão de rede local e aguardar a transmissão das **Coordenadas XOR (Chaves de Acesso)** que serão reveladas no Discord.
 
+QUER SE TORNAR UM AGENTE?
+Link do Discord: 
 
 O dispositivo simula um terminal de acesso seguro com verificação biométrica. Somente Operadores com o hardware correto e o código decifrado conseguirão extrair o **Payload (Voucher/Recompensa)**.
 
@@ -23,15 +23,20 @@ O dispositivo simula um terminal de acesso seguro com verificação biométrica.
 
 Para participar da operação, você precisa ter em mãos o seguinte equipamento:
 
-* **1x Módulo ESP32** (NodeMCU, DevKit V1 ou similar).
+* **1x Módulo ESP32 WROOM 32bits WIFI** (NodeMCU, DevKit V1 ou similar).
 * **1x Cabo Micro-USB** (Certifique-se que transfere dados, não apenas carga).
-* **1x Jumper Macho-Macho ou Fio Condutor** (Conectado ao GPIO 4).
 * **1x led vermelho**.
 * **1x resistor** (10ohm).
-* **1x protoboard**.
-* **1x arruela, moeda ou objeto metálico**
-* **1x case para cyberdeck** (fita VHS velha, mala de ferramentas pequena, etc)
+* **1x Jumper macho-fêmea ou Fio Condutor** (Conectado ao GPIO 4).
+* **3X Jumper fêmea-fêmea** (Conectado ao GPIO 2, led, resistor e GND)
 * **1x Computador** com Arduino IDE configurada.
+
+### OPCIONAIS
+
+* **1x case para cyberdeck** (fita VHS, K7 velha, mala de ferramentas pequena, etc)
+* **1x protoboard** (para interligar outros dispositivos).
+* **1x arruela, moeda ou objeto metálico** (para sensor "biométrico").
+
 
 ### 🧬 Esquema de Montagem (Biometria Fake)
 
