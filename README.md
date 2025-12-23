@@ -65,4 +65,8 @@ Abra o código e localize a seção de rede. Você **DEVE** inserir as credencia
 const char* ssid = "SUA_REDE_WIFI_AQUI";     // <--- EDITE ISTO
 const char* password = "SUA_SENHA_AQUI";     // <--- EDITE ISTO
 
+```
+### EXEMPLO DE CYBERDECK CUSTOMIZADO PARA INSPIRAÇÃO
+
+<img width="1376" height="768" alt="cyberdeck_example" src="https://github.com/user-attachments/assets/2873928b-8665-4140-9e70-35b7b585b022" />
 
