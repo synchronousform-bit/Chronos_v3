@@ -1,4 +1,5 @@
 # Chronos_v3 Uplink
+<img width="1376" height="768" alt="cyberdeck_example" src="https://github.com/user-attachments/assets/4d762452-9ee2-4fac-8f6b-7a30ee567aea" />
 
 
 > **CLASSIFICAÇÃO:** ULTRA-SECRETO // SOMENTE AUTORIZADOS
